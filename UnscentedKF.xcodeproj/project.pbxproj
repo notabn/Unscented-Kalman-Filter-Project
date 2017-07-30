@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B9B5B04FA81C4CBBA282E3CD /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E55C3EC0A5414C798219B4F2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E07B272D8F4F4E21A5C3FC05 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FABBF913A08949C9A354C050 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8026D6406A854F96877B66A4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				480AFBCE6F9B4964BF49B757 /* CMake Rules */,
+			);
+			dependencies = (
+				6EC224DB794A40549CBA561F /* PBXTargetDependency */,
+				3FFACCAA6DBA4CC99760FCB5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02CE4C719B4F49398C009E7D /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/ukf.h */ = {isa = PBXBuildFile; fileRef = 078586246E02443AB8FC4EBB /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/ukf.h */; };
+		50F6C40FC12F49F0A75E11F2 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FCA3A049F0AB40119CA5C9CA /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeLists.txt */; };
+		CD78BB347E12462D8B7476EB /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = E2AFCC3EF75B4678A7B56F30 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/tools.cpp */; };
+		D28E156424284E3E8276DC6D /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 644A9D08609B4DCEBAF6CAC8 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/main.cpp */; };
+		EAF897BBA0434573B5AF3915 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/ukf.cpp */ = {isa = PBXBuildFile; fileRef = D31D1362FE7144DFB7F4F41E /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/ukf.cpp */; };
+		FDBDA516AF6345649027F0C8 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/tools.h */ = {isa = PBXBuildFile; fileRef = 6961B3BD72F846859A8FC805 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/tools.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		20F83F0223D34FC2A6FEECCB = {
+			isa = PBXBuildStyle;
+		};
+		423153E8F7DC4A7FB5DF5192 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		437EED1B08054F4A980053B6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		92767A76763B48B4B15AFB7A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		ACECCEDA028D4598A3B79B69 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		04B3CEE3ED1B46219367BECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4A1BF77B58F448E8C9FE04C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE59B3766EC34769BB55241A;
+			remoteInfo = UnscentedKF;
+		};
+		D5D7D27137254A3B81009C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4A1BF77B58F448E8C9FE04C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B5B04FA81C4CBBA282E3CD;
+			remoteInfo = ZERO_CHECK;
+		};
+		EADE6B9EA4954AD9A324D97F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4A1BF77B58F448E8C9FE04C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B5B04FA81C4CBBA282E3CD;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078586246E02443AB8FC4EBB /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/ukf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ukf.h; path = src/ukf.h; sourceTree = SOURCE_ROOT; };
+		0C79713764F9429BA1B0D36C /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		644A9D08609B4DCEBAF6CAC8 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		6961B3BD72F846859A8FC805 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/tools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tools.h; path = src/tools.h; sourceTree = SOURCE_ROOT; };
+		96E233BA841A4A2CA74250EB /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CBB9DC9E840A46D190D071D0 /* UnscentedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnscentedKF; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31D1362FE7144DFB7F4F41E /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/ukf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ukf.cpp; path = src/ukf.cpp; sourceTree = SOURCE_ROOT; };
+		E2AFCC3EF75B4678A7B56F30 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
+		FCA3A049F0AB40119CA5C9CA /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2A56D343BAB44D64A8C130B0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				848141D5968441DEA4DCC2C3 /* UnscentedKF */,
+				5423968E4E134B62A5E1E787 /* ALL_BUILD */,
+				3DFD0D28017648C5A4BE8F6E /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3DFD0D28017648C5A4BE8F6E /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				FDE682BB362844CCA2E3E0AD /* CMake Rules */,
+				96E233BA841A4A2CA74250EB /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		3F6DEC5B55804EFE86D5F7AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB9DC9E840A46D190D071D0 /* UnscentedKF */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B57E5BF1AFE4477ABA2BCD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5423968E4E134B62A5E1E787 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DA7757DC39474E318B8748C5 /* CMake Rules */,
+				0C79713764F9429BA1B0D36C /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		56D79B4819354A30AFAC028E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				644A9D08609B4DCEBAF6CAC8 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/main.cpp */,
+				E2AFCC3EF75B4678A7B56F30 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/tools.cpp */,
+				D31D1362FE7144DFB7F4F41E /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/ukf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7DA2929AAAA24FAB8846A1D4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				6961B3BD72F846859A8FC805 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/tools.h */,
+				078586246E02443AB8FC4EBB /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/ukf.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		848141D5968441DEA4DCC2C3 /* UnscentedKF */ = {
+			isa = PBXGroup;
+			children = (
+				56D79B4819354A30AFAC028E /* Source Files */,
+				7DA2929AAAA24FAB8846A1D4 /* Header Files */,
+				FCA3A049F0AB40119CA5C9CA /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = UnscentedKF;
+			sourceTree = "<group>";
+		};
+		DA7757DC39474E318B8748C5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F8985D7C93F44C0E8975A5BD = {
+			isa = PBXGroup;
+			children = (
+				2A56D343BAB44D64A8C130B0 /* Sources */,
+				4B57E5BF1AFE4477ABA2BCD7 /* Resources */,
+				3F6DEC5B55804EFE86D5F7AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE682BB362844CCA2E3E0AD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE59B3766EC34769BB55241A /* UnscentedKF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0585DA2C6A4B441094C2FAD1 /* Build configuration list for PBXNativeTarget "UnscentedKF" */;
+			buildPhases = (
+				62C4F0563A254C9FA543D972 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3C170D4D804A94B28D93CC /* PBXTargetDependency */,
+			);
+			name = UnscentedKF;
+			productName = UnscentedKF;
+			productReference = CBB9DC9E840A46D190D071D0 /* UnscentedKF */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4A1BF77B58F448E8C9FE04C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = 45B3F5B2479241C9A280D61E /* Build configuration list for PBXProject "UnscentedKF" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				423153E8F7DC4A7FB5DF5192 /* Debug */,
+				437EED1B08054F4A980053B6 /* Release */,
+				92767A76763B48B4B15AFB7A /* MinSizeRel */,
+				ACECCEDA028D4598A3B79B69 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F8985D7C93F44C0E8975A5BD;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				FABBF913A08949C9A354C050 /* ALL_BUILD */,
+				AE59B3766EC34769BB55241A /* UnscentedKF */,
+				B9B5B04FA81C4CBBA282E3CD /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		480AFBCE6F9B4964BF49B757 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project -f /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6084E94DD87144D987CCE077 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C404E59792BD4D34BC628212 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E07B272D8F4F4E21A5C3FC05 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project -f /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62C4F0563A254C9FA543D972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28E156424284E3E8276DC6D /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/main.cpp */,
+				CD78BB347E12462D8B7476EB /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/tools.cpp */,
+				EAF897BBA0434573B5AF3915 /* /Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/src/ukf.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFACCAA6DBA4CC99760FCB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B5B04FA81C4CBBA282E3CD /* ZERO_CHECK */;
+			targetProxy = D5D7D27137254A3B81009C93 /* PBXContainerItemProxy */;
+		};
+		6EC224DB794A40549CBA561F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE59B3766EC34769BB55241A /* UnscentedKF */;
+			targetProxy = 04B3CEE3ED1B46219367BECA /* PBXContainerItemProxy */;
+		};
+		FF3C170D4D804A94B28D93CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B5B04FA81C4CBBA282E3CD /* ZERO_CHECK */;
+			targetProxy = EADE6B9EA4954AD9A324D97F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ED1B015612145A680741A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		113F10F1313343AF95A4FDEC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UnscentedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22E2EA134DA04B5E9239A8FA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		33D6673A00DD43859704DE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/build";
+			};
+			name = Release;
+		};
+		34F177AA1C584E2CADCFBE6C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		842F1CD561BA4EAF83190469 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UnscentedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9B805C950A994F4F92837654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/build";
+			};
+			name = Debug;
+		};
+		A53EDF95134F420298A1A472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AF9A0CEB846F43E6A4C549EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B8004659282E401BBEBE28AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UnscentedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C5CBC0CE785B46FA849411EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UnscentedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D36332F801FB40228EF9B615 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/build";
+			};
+			name = MinSizeRel;
+		};
+		DAE9362354CA4EB3915920B5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E24347D3CDF74E0CBEE23336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E7855789551C4437B26153A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project/build";
+			};
+			name = RelWithDebInfo;
+		};
+		F16F5A1D91A641E3944E9626 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/emilbalcu/Courses/Udacity/NanodegreeSDC/Term_2/Unscented-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0585DA2C6A4B441094C2FAD1 /* Build configuration list for PBXNativeTarget "UnscentedKF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8004659282E401BBEBE28AA /* Debug */,
+				C5CBC0CE785B46FA849411EA /* Release */,
+				113F10F1313343AF95A4FDEC /* MinSizeRel */,
+				842F1CD561BA4EAF83190469 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45B3F5B2479241C9A280D61E /* Build configuration list for PBXProject "UnscentedKF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B805C950A994F4F92837654 /* Debug */,
+				33D6673A00DD43859704DE3E /* Release */,
+				D36332F801FB40228EF9B615 /* MinSizeRel */,
+				E7855789551C4437B26153A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8026D6406A854F96877B66A4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53EDF95134F420298A1A472 /* Debug */,
+				0ED1B015612145A680741A56 /* Release */,
+				DAE9362354CA4EB3915920B5 /* MinSizeRel */,
+				F16F5A1D91A641E3944E9626 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E55C3EC0A5414C798219B4F2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24347D3CDF74E0CBEE23336 /* Debug */,
+				AF9A0CEB846F43E6A4C549EA /* Release */,
+				22E2EA134DA04B5E9239A8FA /* MinSizeRel */,
+				34F177AA1C584E2CADCFBE6C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4A1BF77B58F448E8C9FE04C /* Project object */;
+}
